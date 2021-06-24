@@ -134,6 +134,13 @@ section.gallery .work-gallery a .hover {
     transition: all .5s ease;
 }
 section.gallery .work-gallery a:hover .hover {opacity: 1;}
+section.gallery .work-gallery a .hover p,
+section.gallery .work-gallery a:hover .hover p{
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    margin-top: 27%;
+}
 section.gallery .work-gallery a .hover i {
     position: absolute;
     top: 50%;
@@ -156,9 +163,9 @@ section.gallery .work-gallery .overlay-gallery {
     margin-top: -100vh;
     text-align: right;
 }
-section.gallery .work-gallery .overlay-gallery:target {opacity: 1;margin-top: 0;}
+section.gallery .work-gallery .overlay-gallery:target {width:105%;opacity: 1;margin-top: 0;}
 section.gallery .work-gallery .overlay-gallery img {width: 100%;}
-section.gallery .work-gallery .overlay-gallery .gallery-text h3 {font-size: 36px;line-height: 52px;color: #16aeca;margin-bottom: 30px;}
+section.gallery .work-gallery .overlay-gallery .gallery-text h3 {font-size: 30px;line-height: 52px;color: #16aeca;margin-bottom: 20px;}
 section.gallery .work-gallery .overlay-gallery .gallery-text ul {
     padding-bottom: 20px;
     margin-bottom: 20px;
@@ -167,16 +174,16 @@ section.gallery .work-gallery .overlay-gallery .gallery-text ul {
 }
 section.gallery .work-gallery .overlay-gallery .gallery-text ul li a {color: #555555;}
 section.gallery .work-gallery .overlay-gallery .gallery-text p {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 33px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     color: #919191;
 }
 section.gallery .work-gallery .overlay-gallery .gallery-text a.visit {
     font-size: 20px;
     line-height: 50px;
     border-radius: 25px;
-    padding: 0px 30px;
+    padding: 0px 20px;
     background-color: #16aeca;
     color: #ffffff;
     width: auto;
@@ -333,4 +340,5 @@ footer .copyright p {
     .work-gallery .col-md > .col-sm > a {display: block !important;}
 	.work-gallery .col-md > .col-sm > a img {width: 100%;}
     section.gallery .work-gallery .overlay-gallery img {width: 50%;}
+    section.services .card:hover {height: auto;}
 }
